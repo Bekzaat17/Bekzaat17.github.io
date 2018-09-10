@@ -1,5 +1,5 @@
 
-jQuery(document).ready(function($) {
+jQuery(document).ready(function() {
 
 $(".main-image > div:gt(0)").hide();
 
@@ -11,14 +11,16 @@ setInterval(function() {
     .end()
     .appendTo('.main-image');
 },  3000);
-    /*======= Skillset *=======*/
+
+
     
     $('.level-bar-inner').css('width', '0');
-    $(".container").css({opacity: 0});
+    $("div").css({opacity: 0});
+    
     
     $(window).on('load', function() {
 
-        $(".container").animate({opacity: 1}, 1500);
+        $("div").animate({opacity: 1}, 1500);
 
         $('.level-bar-inner').each(function() {
         
