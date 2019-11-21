@@ -546,11 +546,11 @@ a.dotted-link:hover {
     margin-top: 1px !important;
   }
    .main-image{
-    position: relative; 
+/*     position: relative; 
     width: 1350px; 
     height: 400px; 
     padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); */
 }
 
 .main-image > div { 
