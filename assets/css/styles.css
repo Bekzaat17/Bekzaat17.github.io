@@ -1,6 +1,6 @@
 /* ======= Base ======= */
 .main-image { 
-    /*margin: 50px auto;*/
+    max-width: -webkit-fill-available;
     position: relative; 
     width: 670px; 
     height: 240px; 
